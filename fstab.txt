@@ -1,0 +1,4 @@
+LABEL=cloudimg-rootfs	/	 ext4	defaults,discard	0 0
+
+18.217.66.96:/home	/mnt/nfs/home	nfs auto,nofail,noatime,usrquota 0 1,nolock,intr,tcp,actimeo=1800 0 0
+
